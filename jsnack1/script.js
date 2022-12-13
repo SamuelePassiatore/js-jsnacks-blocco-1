@@ -6,7 +6,8 @@ Il programma stampa la somma di tutti i numeri inseriti. */
 
 /*
 1 - Prendo l'elemento dal DOM;
-2 - Chiedo all'utente di inserire un numero, tra 1 a 100;
+2 - Creo un ciclo for;
+    2a - Chiedo all'utente di inserire un numero, tra 1 a 100;
 3 - Aggiungo tutti i numeri ottenuti dall'utente a una variabile somma;
 4 - Stampo la somma finale;
 */
@@ -14,4 +15,8 @@ Il programma stampa la somma di tutti i numeri inseriti. */
 // 1 - Prendo l'elemento dal DOM;
 const sum = document.getElementById('sum');
 
+// 2 - Creo un ciclo for;
+for (i = 0; i < 10; i++) {
+
+}
 
