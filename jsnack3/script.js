@@ -19,3 +19,10 @@ e stampala in pagina.*/
 const inputNumber = document.getElementById('number');
 const button = document.getElementById('button');
 const result = document.getElementById('result');
+
+// 2 - Aggancio l'event listener al button entrata;
+button.addEventListener('click', function () {
+    // 2a - Recupero valore dell'input;
+    const userNumber = parseInt(inputNumber.value.trim());
+    console.log(userNumber);
+});
