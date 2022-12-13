@@ -29,4 +29,13 @@ const nameGuests = [
 ];
 ////console.log(nameGuests);
 
+// 3 - Aggancio l'event listener al button entrata;
+button.addEventListener('click', function () {
+    
+    // 3a - Recupero valore dell'input;
+    const userName = inputName.value.trim();
+    ////console.log(userName);
+
+});
+
 
