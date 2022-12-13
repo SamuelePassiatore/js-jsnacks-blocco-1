@@ -11,4 +11,7 @@ Il programma stampa la somma di tutti i numeri inseriti. */
 4 - Stampo la somma finale;
 */
 
+// 1 - Prendo l'elemento dal DOM;
+const sum = document.getElementById('sum');
+
 
