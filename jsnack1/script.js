@@ -33,6 +33,8 @@ for (i = 0; i < 10; i++) {
     sumNumber += userNumber;
 }
 
-console.log(sumNumber);
+// 4 - Stampo la somma finale;
+//console.log(sumNumber);
+sum.innerText = "Somma totale dei numeri: " + sumNumber;
 
 
