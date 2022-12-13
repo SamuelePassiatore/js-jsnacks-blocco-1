@@ -50,6 +50,16 @@ button.addEventListener('click', function () {
             isAuthorized = true;
         }
     }
+
+    // 3e - Genero un condizionale if sul messaggio da mostrare;
+    let content = '';
+    if (isAuthorized) {
+        content += `<div class="text-success">Puoi partecipare alla festa! :)</div>`;
+    } else {
+        content += `<div class="text-danger">Spiacente, non puoi partecipare alla festa! :(</div>`;
+    }
+
+
 });
 
 
