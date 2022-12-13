@@ -17,6 +17,8 @@ const sum = document.getElementById('sum');
 
 // 2 - Creo un ciclo for;
 for (i = 0; i < 10; i++) {
-
+    // 2a - Chiedo all'utente di inserire un numero, tra 1 e 100;
+    const userNumber = parseInt(prompt('Inserisci un numero, tra 1 e 100', 30).trim());
+    console.log(userNumber);
 }
 
