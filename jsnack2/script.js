@@ -34,8 +34,13 @@ button.addEventListener('click', function () {
     
     // 3a - Recupero valore dell'input;
     const userName = inputName.value.trim();
-    ////console.log(userName);
+    console.log(userName);
 
+    // 3b - Validazione degli input raccolti;
+    if(!userName || (!isNaN(userName))){
+    alert('Devi inserire un nome!');
+    return;
+    }
 });
 
 
