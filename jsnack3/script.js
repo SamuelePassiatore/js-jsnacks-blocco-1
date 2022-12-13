@@ -14,3 +14,8 @@ e stampala in pagina.*/
     3d - Svuoto il campo del numero;
     3e - Stampo un messaggio sul risultato della somma;
 */
+
+// 1 - Prendo gli elementi dal DOM;
+const inputNumber = document.getElementById('number');
+const button = document.getElementById('button');
+const result = document.getElementById('result');
