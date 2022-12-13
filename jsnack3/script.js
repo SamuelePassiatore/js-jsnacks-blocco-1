@@ -8,11 +8,11 @@ e stampala in pagina.*/
 /*
 1 - Prendo gli elementi dal DOM;
 2 - Aggancio l'event listener al button calcola;
-    3a - Recupero valore dell'input;
-    3b - Validazione degli input raccolti;
-    3c - Creo il ciclo for dei numeri raccolti;
-    3d - Svuoto il campo del numero;
-    3e - Stampo un messaggio sul risultato della somma;
+    2a - Recupero valore dell'input;
+    2b - Validazione degli input raccolti;
+    2c - Creo il ciclo for dei numeri raccolti;
+    2d - Svuoto il campo del numero;
+    2e - Stampo un messaggio sul risultato della somma;
 */
 
 // 1 - Prendo gli elementi dal DOM;
@@ -25,4 +25,9 @@ button.addEventListener('click', function () {
     // 2a - Recupero valore dell'input;
     const userNumber = parseInt(inputNumber.value.trim());
     console.log(userNumber);
+    // 2b - Validazione degli input raccolti;
+    if(!userNumber || (isNaN(userNumber) || userNumber < 1000)){
+        alert('Devi inserire un numero di 4 cifre!');
+        return;
+    }
 });
