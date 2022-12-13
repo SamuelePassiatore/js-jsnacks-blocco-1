@@ -59,7 +59,12 @@ button.addEventListener('click', function () {
         content += `<div class="text-danger">Spiacente, non puoi partecipare alla festa! :(</div>`;
     }
 
+    // 3f - Svuoto il campo email;
+    // const input email
+    inputName.value = '';
 
+    // 3g - Stampo un messaggio sull'esito del controllo;
+    message.innerHTML = `<strong>${content}</strong>`;
 });
 
 
