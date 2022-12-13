@@ -22,3 +22,11 @@ Comunicagli se può partecipare o no alla festa. */
 const inputName = document.getElementById('name');
 const button = document.getElementById('button');
 const message = document.getElementById('message');
+
+// 2 - Creo un array con cinque nomi autorizzati;
+const nameGuests = [
+"Napoleone", "Socrate", "Gesù", "Darwin", "Maradona"
+];
+////console.log(nameGuests);
+
+
