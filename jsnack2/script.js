@@ -41,6 +41,15 @@ button.addEventListener('click', function () {
     alert('Devi inserire un nome!');
     return;
     }
+
+    // 3c - Creo il ciclo for dei nomi autorizzati;
+    let isAuthorized = false;
+    for(i = 0; i < nameGuests.length && !isAuthorized; i++) {
+        // 3d - Genero un condizionale if riguardo la possibile corrispondenza dei nomi;
+        if(nameGuests[i] === userName){
+            isAuthorized = true;
+        }
+    }
 });
 
 
