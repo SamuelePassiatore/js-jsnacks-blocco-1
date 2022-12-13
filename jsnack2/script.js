@@ -17,3 +17,8 @@ Comunicagli se può partecipare o no alla festa. */
     3f - Svuoto il campo del nome;
     3g - Stampo un messaggio sull'esito del controllo;
 */
+
+// 1 - Prendo gli elementi dal DOM;
+const inputName = document.getElementById('name');
+const button = document.getElementById('button');
+const message = document.getElementById('message');
