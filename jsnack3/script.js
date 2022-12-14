@@ -29,7 +29,7 @@ button.addEventListener('click', function () {
     console.log(userNumber);
     
     // 2b - Validazione degli input raccolti;
-    if(!userNumber || (isNaN(userNumber) || userNumber < 1000 || userNumber > 9999)){
+    if (isNaN(userNumber) || userNumber < 1000 || userNumber > 9999){
         alert('Devi inserire un numero di 4 cifre!');
         return;
     }
